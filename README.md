@@ -1,8 +1,8 @@
 # Semantic Segmentation
 [![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
 
-- This repository is for udacity self-driving car nanodegree project: `Semantic Segmentation`.
-- Implement this paper: ["Fully Convolutional Networks for Semantic Segmentation (2015) "](https://people.eecs.berkeley.edu/~jonlong/long_shelhamer_fcn.pdf)
+- This repository is for udacity self-driving car nanodegree project - `Semantic Segmentation`.
+- Implement this paper: ["Fully Convolutional Networks for Semantic Segmentation (2015)"](https://people.eecs.berkeley.edu/~jonlong/long_shelhamer_fcn.pdf)
 - See [`FCN-VGG16.ipynb`](./FCN-VGG16.ipynb)
 
 
@@ -16,11 +16,11 @@
 - [Kitti Road dataset](http://www.cvlibs.net/datasets/kitti/eval_road.php) from [here](http://www.cvlibs.net/download.php?file=data_road.zip).
 
 ### Hyperparameters
-- Optimizer: AdamOptimizer
-- Learning rate: 1e-3
-- Deconvolution `l2 regularization` factor: 1e-3
-- Batch size: 16
-- Training Epochs: 50
+- Optimizer: `Adam`
+- Learning rate: `1e-3`
+- Deconvolution `l2 regularization` factor: `1e-3`
+- Batch size: `16`
+- Training epochs: `50`
 
 ## Results
 ### Loss
@@ -29,7 +29,7 @@ After 50 epochs, loss became about 0.1
 ![loss](./assets/loss.png)
 
 ### Nice results
-These are pretty nice results. it looks that network can classify road well.
+These are pretty nice results. It seems like the network classify road area well.
 
 
 ![good1](./assets/good1.png)
