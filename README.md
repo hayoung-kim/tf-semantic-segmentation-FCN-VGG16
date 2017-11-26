@@ -43,7 +43,7 @@ These are pretty nice results. It seems like the network classify road area well
 
 
 ### Bad results
-These are bad results. I believe this could be better after following methods:
+These are bad results. I believe that the results will be better using the following methods.
 - Use more deeper network (e.g. ResNet)
 - Augment given data or train network with another data (e.g. CityScape)
 - Use different architecture (e.g. [U-Net](https://arxiv.org/abs/1505.04597))
