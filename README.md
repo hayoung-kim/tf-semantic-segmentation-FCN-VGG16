@@ -16,15 +16,25 @@
 - [Kitti Road dataset](http://www.cvlibs.net/datasets/kitti/eval_road.php) from [here](http://www.cvlibs.net/download.php?file=data_road.zip).
 
 ### Hyperparameters
+
+![hyperparams](./assets/hyperparams.png)
+
+Learning rate, batch size and keep probability was tunned by random search. if you want to see detail: [`Link`](./fcn8s-vgg-tunning-params.ipynb)
+
+
+
 - Optimizer: `Adam`
-- Learning rate: `1e-3`
+- Learning rate: `0.0002395`
 - Deconvolution `l2 regularization` factor: `1e-3`
-- Batch size: `16`
-- Training epochs: `50`
+- Batch size: `2`
+- Training epochs: `30`
+- `Keep prob` for dropout (VGG): `0.495`
+
+#### 
 
 ## Results
 ### Loss
-After 50 epochs, loss became about 0.1
+After 30 epochs, loss became about 0.05
 
 ![loss](./assets/loss.png)
 
