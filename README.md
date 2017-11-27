@@ -19,7 +19,7 @@
 
 ![hyperparams](./assets/hyperparams.png)
 
-Learning rate, batch size and keep probability was tunned by random search. if you want to see detail: [`Link`](./fcn8s-vgg-tunning-params.ipynb)
+__Learning rate, batch size__ and __keep probability__ were tunned by random search. If you want to see code for this: [`Link`](./fcn8s-vgg-tunning-params.ipynb)
 
 
 
